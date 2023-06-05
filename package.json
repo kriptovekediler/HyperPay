@@ -9,12 +9,32 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ethersproject/providers": "^5.7.2",
+    "@safe-global/onramp-kit": "^1.1.0",
+    "@stripe/react-stripe-js": "^2.1.0",
+    "@stripe/stripe-js": "^1.54.0",
     "@types/node": "20.2.5",
     "@types/react": "18.2.7",
     "@types/react-dom": "18.2.4",
+    "@web3modal/auth-react": "^2.4.3",
+    "@zerodevapp/sdk": "^3.1.32",
+    "ethers": "^5.7.2",
     "next": "13.4.4",
     "react": "18.2.0",
+    "react-blockies": "^1.4.1",
     "react-dom": "18.2.0",
-    "typescript": "5.0.4"
+    "redux": "^4.2.1",
+    "stripe": "^12.7.0",
+    "typescript": "5.0.4",
+    "use-shopping-cart": "^3.1.7",
+    "web3modal": "^1.9.12"
+  },
+  "devDependencies": {
+    "@types/micro": "^7.3.7",
+    "@types/micro-cors": "^0.1.2",
+    "@types/node": "^18.11.2",
+    "@types/react": "^18.0.21",
+    "@types/react-blockies": "^1.4.1",
+    "typescript": "4.8.4"
   }
 }
